@@ -5,9 +5,9 @@ The two main functualities are to explore a given website and the wanted number 
 
 Quick Guide:
 1. To explore a website you just simply need to execute the following command:
-   python screenshot_service.py -u <mainUrl> -n <numberOfPages>
+   python screenshot_service.py -u [mainUrl] -n [numberOfPages]
 2. To find an already take screenshot in the db execute:
-   python screenshot_service.py -g <screenshotId>
+   python screenshot_service.py -g [screenshotId]
 
 The screenshots are stored in base64, instead of PNGs. This is with storage management purposes.
 
